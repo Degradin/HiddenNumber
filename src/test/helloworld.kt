@@ -12,11 +12,11 @@ fun main() {
             val enteredNumber = enteredData.toInt()
             if (enteredNumber == hiddenNumber) {
                 println("You find correct number")
-            }else if (enteredNumber > hiddenNumber && i != 7){
+            } else if (enteredNumber > hiddenNumber && i != 7){
                 println("Less")
-            }else if (enteredNumber < hiddenNumber && i != 7){
+            } else if (enteredNumber < hiddenNumber && i != 7){
                 println("More")
-            }else{
+            } else {
                 println("You died, the number was $hiddenNumber")
             }
         } catch (e: NumberFormatException) {
